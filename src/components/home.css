@@ -1,0 +1,102 @@
+.middle-div{
+    color: #f96c6c;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-links{
+ 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+  
+    
+}
+.home{
+    margin-left: 50px;
+}
+button{
+    height: 30px;
+    width: 150px;
+    font-size: 15px;
+    border: 1p solid black;
+    background-image: linear-gradient(to right, #75c1c4, #62a4ea);
+    border-radius: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button:hover{
+    color: aliceblue;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #d34c4c, #ed1818);
+}
+.submitBtn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(235, 28, 28);
+    background-image: linear-gradient(to right, #f96c6c, #ff0000);
+    height: 32px;
+    width: 110px;
+    font-size: 15px;
+    border: 1p solid black;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 80%;
+}
+.submitBtn:hover{
+    color: aliceblue;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #ff0000, #ff0000);
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+.searchBox{
+    opacity: 0.5;
+    width: 550px;
+    border-radius: 5px black;
+}
+
+.radioOptions{
+  display: flex;  
+  flex-wrap: wrap;
+}
+.FavText{
+
+    background-color: rgb(181, 220, 248);
+   
+    width: 550px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+/* ------Package list----------- */
+table, th, td {
+    display:table-cell;
+    border-collapse: collapse;
+    padding: 20px;
+   
+  }
+  th, td {
+    width: 150px;
+    background-color: #96D4D4;
+  }
+
+  .tableContent{
+    display:grid;
+   justify-content:center;
+    height: auto;
+    width: auto;
+    margin-left: 4%;
+
+  }
+
+
+  .packageHead{
+    color: rgb(248, 255, 147);
+    display:flex;
+    margin-left: 45%;
+  }
